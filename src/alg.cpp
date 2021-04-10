@@ -8,10 +8,10 @@ int countPairs1(int *arr, int len, int value) {
                 k++;
         }
         }
-        if ( k > 0 ) 
+        if ( k > 0 )
                 return k;
         else
-                return 0; 
+                return 0;
         }
 
 int countPairs2(int *arr, int len, int value) {
@@ -26,10 +26,10 @@ int countPairs2(int *arr, int len, int value) {
                 k++;
         }
         }
-        if ( k > 0 ) 
+        if ( k > 0 )
                 return k;
         else
-                return 0; 
+                return 0;
         }
 
 
@@ -51,7 +51,8 @@ int countPairs3(int *arr, int len, int value) {
         }
         break;
         }
-                else if (arr[center] > result) {
+                else
+        if (arr[center] > result) {
         right = center;
         }
         else {
