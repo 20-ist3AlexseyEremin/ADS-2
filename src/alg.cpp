@@ -50,12 +50,10 @@ int countPairs3(int *arr, int len, int value) {
         k++;
         }
         break;
-        }
-                else
+        } else
         if (arr[center] > result) {
         right = center;
-        }
-        else {
+        } else {
         left = center+1;
         }
         }
